@@ -1,6 +1,17 @@
 ##############################################
 Ad Soyad : Furkan Tuluk
 Tarih    : 06/02/2024
+Versiyon : v0.0.3
+Aciklama : siteye path ekleme, ve urls dosyasinin
+           kullanimi yapilmistir. Amac site ilk
+           acildiginda referansi yoksa yani bos('')
+           sitenin ordaki gorunumunu saglamak.
+##############################################
+
+
+##############################################
+Ad Soyad : Furkan Tuluk
+Tarih    : 06/02/2024
 Versiyon : v0.0.2
 Aciklama : html dosyalarini efektif hale getirmek
            icin base.html dosyasi olusturulmus
