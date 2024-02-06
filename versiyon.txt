@@ -1,0 +1,8 @@
+##############################################
+Ad Soyad : Furkan Tuluk
+Tarih    : 06/02/2024
+Versiyon : v0.0.1
+Aciklama : Projenin olusturulmasi. Static ve template
+           eklenmis olup, settings.py dosyasina
+           klasorlerin path'i yazilmistir.
+##############################################
