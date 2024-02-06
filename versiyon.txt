@@ -1,6 +1,17 @@
 ##############################################
 Ad Soyad : Furkan Tuluk
 Tarih    : 06/02/2024
+Versiyon : v0.0.2
+Aciklama : html dosyalarini efektif hale getirmek
+           icin base.html dosyasi olusturulmus
+           ve diger html dosyalarina include
+           edilmistir.
+##############################################
+
+
+##############################################
+Ad Soyad : Furkan Tuluk
+Tarih    : 06/02/2024
 Versiyon : v0.0.1
 Aciklama : Projenin olusturulmasi. Static ve template
            eklenmis olup, settings.py dosyasina
