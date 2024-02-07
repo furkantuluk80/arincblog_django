@@ -1,6 +1,16 @@
 ##############################################
 Ad Soyad : Furkan Tuluk
 Tarih    : 07/02/2024
+Versiyon : v0.0.6
+Aciklama : 
+- siteye title, subtitle, date, post eklenmistir.
+- index.html dinamiklestirilmistir.
+##############################################
+
+
+##############################################
+Ad Soyad : Furkan Tuluk
+Tarih    : 07/02/2024
 Versiyon : v0.0.5
 Aciklama : 
 -readme dosyasina kurulum adimlari eklenmistir.

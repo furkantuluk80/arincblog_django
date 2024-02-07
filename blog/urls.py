@@ -1,5 +1,5 @@
 from django.urls import path, include
-from .views import HomePageView
+from .views import BlogPageView
 
 """
 Burada amac, siteye giriste herhangi bir adrese gidilmemisse('')
@@ -8,6 +8,6 @@ views dosyasindaki HomePageView sinifi referans alinarak
 class'in islenmesi saglanir.
 """
 urlpatterns = [
-    path('',HomePageView.as_view(), name = 'index'  ),
+    path('',BlogPageView.as_view(), name = 'index'  ),
 ]
 
