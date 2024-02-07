@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
+#blog buraya eklenerek, projedeki sayfalarin gosterilmesini saglar.
 INSTALLED_APPS = [
     'blog.apps.BlogConfig',
     'django.contrib.admin',

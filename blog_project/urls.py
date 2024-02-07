@@ -9,6 +9,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('blog.urls')),
     path('about/', TemplateView.as_view(template_name = 'about.html')),
+    path('home/', TemplateView.as_view(template_name = 'home.html')),
+    path('contact/', TemplateView.as_view(template_name = 'contact.html')),
 ]
 
 urlpatterns += static(settings.STATIC_URL, documant_root = settings.STATICFILES_DIRS)

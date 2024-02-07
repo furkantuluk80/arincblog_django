@@ -1,5 +1,16 @@
 ##############################################
 Ad Soyad : Furkan Tuluk
+Tarih    : 07/02/2024
+Versiyon : v0.0.5
+Aciklama : 
+-readme dosyasina kurulum adimlari eklenmistir.
+-kodlara yorum satirlari eklenmistir.    
+-contact sayfasi ayaga kaldirilmistir.
+##############################################
+
+
+##############################################
+Ad Soyad : Furkan Tuluk
 Tarih    : 06/02/2024
 Versiyon : v0.0.4
 Aciklama : 
@@ -7,8 +18,7 @@ Aciklama :
 -veri tabani olusturuldu.
 -html kod dosyalari duzenlenmistir.
 -settings.py ve urls.py dosyalari 
- duzenlenmistir
-           
+ duzenlenmistir.        
 ##############################################
 
 
