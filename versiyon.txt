@@ -1,5 +1,17 @@
 ##############################################
 Ad Soyad : Furkan Tuluk
+Tarih    : 08/02/2024
+Versiyon : v0.0.7
+Aciklama : 
+- primary key yapisi ile post sayfasindan baska 
+  sayfalara yonledirilme saglandi.
+- post.html dosyasinda unutulan Page Header sayfasi
+  eklendi.
+##############################################
+
+
+##############################################
+Ad Soyad : Furkan Tuluk
 Tarih    : 07/02/2024
 Versiyon : v0.0.6
 Aciklama : 

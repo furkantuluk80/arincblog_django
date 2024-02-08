@@ -31,7 +31,7 @@
                     {% for post in object_list %}
                     <!-- Post preview-->
                     <div class="post-preview">
-                        <a href="post.html">
+                        <a href="{% url 'post' post.pk %}"> <!-- Bu kisim onceden post.html'i gosteriyordu. Bu yapi ile dinamiklestirildi. postun url'inden posta ait primary keylere yonledirilmesi saglandi. -->
                             <h2 class="post-title">
                                 {{post.title}}
                                 
@@ -43,7 +43,7 @@
                         <p class="post-meta">
                             Posted by
                             <a href="#!">{{post.author}}</a>
-                            on {{post.date}}
+                            on {{post.date|date:"F d, Y"}}     <!-- Burada tarih yapisi filtrelenerek istenilen formatta kullanilmasi saglandi. February 07, 2024 seklinde gosteriliyor.-->
                         </p>
                     </div>
                     {% endfor %}
