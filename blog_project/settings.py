@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 
 #blog buraya eklenerek, projedeki sayfalarin gosterilmesini saglar.
 INSTALLED_APPS = [
+    'django_cleanup.apps.CleanupConfig',
     'blog.apps.BlogConfig',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -120,6 +121,15 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (os.path.join('static'),)
+
+
+"""
+yuklenen gorsellerin hangi dosyaya gidecegi yazilir
+"""
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+MEDIA_URL = '/media/'
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field

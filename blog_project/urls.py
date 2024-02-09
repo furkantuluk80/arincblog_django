@@ -13,4 +13,5 @@ urlpatterns = [
     path('contact/', TemplateView.as_view(template_name = 'contact.html')),
 ]
 
-urlpatterns += static(settings.STATIC_URL, documant_root = settings.STATICFILES_DIRS)
+urlpatterns += static(settings.STATIC_URL, document_root = settings.STATICFILES_DIRS)
+urlpatterns += static(settings.MEDIA_URL,  document_root = settings.MEDIA_ROOT)

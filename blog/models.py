@@ -11,11 +11,9 @@ class Post(models.Model):
     author   = models.ForeignKey('auth.User',
                                  on_delete = models.CASCADE )
     date     = models.DateTimeField(auto_now_add = True)
+    image = models.ImageField(upload_to='images/', null = True, blank = True)
+    path = 'media/images/'
 
-    """
-    bunun amaci title gorunumun, postreSQL'de tanimlanan
-    sekilde gorunmesini saglamaktir.
-    """
-    def __str__(self):
-        return self.title
-    
+
+
+        
