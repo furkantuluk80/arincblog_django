@@ -1,5 +1,30 @@
 ##############################################
 Ad Soyad : Furkan Tuluk
+Tarih    : 09/02/2024
+Versiyon : v0.0.9
+Aciklama : 
+- sayfalama yapisi eklendi.
+- readme guncellendi.
+##############################################
+
+
+##############################################
+Ad Soyad : Furkan Tuluk
+Tarih    : 08/02/2024
+Versiyon : v0.0.8
+Aciklama : 
+- media/image klasoru eklenerek web sayfasina resimlerin
+  eklenmesi saglandi.
+- cleanup kutuphanesi eklenerek, dinamik olarak
+  media klasorunden database ile eslesmeyen resimlerin 
+  silinmesi saglandi. 
+- page'lerde resim atanmamasi durumunun kontrolu eklenerek
+  hata onlenmis oldu.
+##############################################
+
+
+##############################################
+Ad Soyad : Furkan Tuluk
 Tarih    : 08/02/2024
 Versiyon : v0.0.7
 Aciklama : 
